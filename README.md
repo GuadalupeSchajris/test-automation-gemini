@@ -35,12 +35,17 @@ cp config.example.py config.py
 # Uso
 
 python3 test_generator.py
+
 Esto lee app.py, genera tests con Gemini y los guarda en tests_generados.py.
-Ejecutar tests generados
+
+# Ejecutar tests generados
+
 bash
 Copy
 pytest tests_generados.py -v
-Tecnologias
+
+# Tecnologias
+
 Python 3.9+
 Google Gemini API (google-genai)
 pytest
