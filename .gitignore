@@ -1,0 +1,14 @@
+# Entorno virtual
+venv/
+__pycache__/
+*.pyc
+
+# API keys y secrets
+config.py
+.env
+
+# Tests generados (opcional, puedes dejarlos si quieres mostrarlos)
+# tests_generados.py
+
+# VS Code
+.vscode/
